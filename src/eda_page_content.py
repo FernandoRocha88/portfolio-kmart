@@ -50,7 +50,7 @@ def eda_product_basket_analysis():
         * The first 2 combinations happened +5k times, the next 5 between 800 and 1.7k, and the remaining less than 370
     """)
 
-    st.image("inputs\images\eda_product_basket.PNG", use_column_width='always',
+    st.image("inputs/images/eda_product_basket.png", use_column_width='always',
                 caption='Product Basket - Common products bought together in the same order')
 
     st.info("""
@@ -97,7 +97,7 @@ def eda_product_region_performance():
             * Low: Vareebadd phone, **LG dryer, LG washing**
         """)
 
-    st.image("inputs\images\eda_performance_over_time.PNG", use_column_width='always',
+    st.image("inputs/images/eda_performance_over_time.png", use_column_width='always',
                 caption='Product Quantity performance over time')
 
 
@@ -107,7 +107,7 @@ def eda_patterns_over_time():
         * The pattern repeats for other levels **(Revenue, Costs, # Order, # Product, # Customer)**.
 
         """)
-    st.image("inputs\images\eda_patterns_over_time.PNG", use_column_width='always', caption='Margin levels per month')
+    st.image("inputs/images/eda_patterns_over_time.png", use_column_width='always', caption='Margin levels per month')
 
     st.info("""
         * Levels are higher in **Q4 and Q2: Dec, Oct, April**
