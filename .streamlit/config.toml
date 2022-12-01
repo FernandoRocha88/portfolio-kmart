@@ -1,0 +1,8 @@
+# https://htmlcolorcodes.com/
+[theme] # You have to add this line
+
+# primaryColor = '#FF8C02' # Bright Orange
+
+# sets backgroundColor to white, regardless of user setting dark/white mode
+backgroundColor = '#FFFFFF'
+secondaryBackgroundColor = '#F3F8F9' # Lighter Blue
