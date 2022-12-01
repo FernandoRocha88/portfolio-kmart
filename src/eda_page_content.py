@@ -102,6 +102,7 @@ def eda_product_region_performance():
 
 
 def eda_patterns_over_time():
+    st.warning("* Go to Tableau App, Analytics Explorer tab, set X axis as month, and ColorBy None")
     st.info("""
         * Bar plot shows **Margin** Levels across months (taken from Tableau App)
         * The pattern repeats for other levels **(Revenue, Costs, # Order, # Product, # Customer)**.
