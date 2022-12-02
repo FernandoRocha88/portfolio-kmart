@@ -1,5 +1,8 @@
 import streamlit as st
 st.set_page_config(page_title="Exploratory Data Analysis", page_icon="🔎")
+from config.hide_default_button_icon import hide_default_format
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
 from src.eda_page_content import (
                                     eda_overall_results,
                                     eda_patterns_over_time, 

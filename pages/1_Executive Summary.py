@@ -1,6 +1,8 @@
 import streamlit as st
-
 st.set_page_config(page_title="Executive Summary", page_icon="📑")
+from config.hide_default_button_icon import hide_default_format
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
 st.write("#### 📑 Executive Summary \n ---")
 
 exec_summary_text = """

@@ -1,8 +1,9 @@
 import streamlit as st
-from src.insights_content import insights_pricing, insights_product, insights_customer_behaviour
-
 st.set_page_config(page_title="Insights and Recommendations", page_icon="📌")
+from config.hide_default_button_icon import hide_default_format
+st.markdown(hide_default_format, unsafe_allow_html=True)
 
+from src.insights_content import insights_pricing, insights_product, insights_customer_behaviour
 
 st.write("#### 📌 Insights and Recommendations \n ---")
 
